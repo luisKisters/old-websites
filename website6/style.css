@@ -1,0 +1,64 @@
+html
+{
+  background-color: white;
+}
+
+.main
+{
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg
+{
+  background: rgb(40,255,240);
+  background: linear-gradient(320deg, rgba(40,255,240,0.9485994226792279) 5%, rgba(0,255,237,1) 24%, rgba(34,210,245,1) 45%, rgba(79,0,255,1) 70%, rgba(5,0,116,1) 93%);
+  padding: 25px;
+  margin: 30px;
+  border-radius: 5px;
+  min-height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 10px 5px;
+  /*box-shadow: 5px 5px 0px 0px #4ed4fc, 10px 10px 0px 0px #4e9dfc, 15px 15px 0px 0px #2277e0*/
+}
+
+.topnav
+{
+  padding: 10px;
+  text-align: right;
+  margin-right: 70px;
+}
+
+.navlink
+{
+  text-decoration: none;
+  color: white;
+  margin: 8px;
+  padding: 7px;
+  border-radius: 25px;
+  /* This timing applies on the way OUT */
+  transition-timing-function: ease-in-out;
+  /* Quick on the way out */
+  transition: 0.3s;
+  /*border-bottom: 1px solid;*/
+}
+
+.logo
+{
+  color: white;
+  float: left;
+  margin-left: 120px;
+
+}
+
+.navlink:hover
+{
+  box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 15px;
+  color: black;
+  background: white;
+  border-radius: 20px;
+}
+
+.active
+{
+  border-bottom: 1px solid white;
+  border-radius: 0px;
+}

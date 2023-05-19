@@ -1,0 +1,196 @@
+body
+{
+  font-family: Source Sans Pro;
+  background-color: darkviolet;
+  padding: 10px;
+}
+
+
+a
+{
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+
+}
+
+.un {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.un::after {
+  content: '';
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: white;
+  transition: 300ms;
+}
+
+.un:hover::after {
+  width: 100%;
+}
+
+div.navigation
+{
+  text-align: right;
+  padding: 15px;
+  border-radius: 10px;
+  backdrop-filter: blur(80px);
+  background-color: rgba(255, 255, 255, 0.1);
+  text-decoration: none;
+}
+
+.contact_container
+{
+
+}
+
+.contact_box_headline
+{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.contact_links
+{
+  padding: 10px;
+  line-height: 1.5;
+}
+
+.fa {
+}
+
+.contact_wrapper .social_button:hover
+{
+  width: 200px;
+}
+
+/*macht das symbol in ne andere farbe... in dem fall
+wird das reddit (nth-child1) icon orange*/
+.contact_wrapper .social_button:nth-child(1):hover .icon
+{
+  background-color: #ff5e19;
+}
+
+.contact_wrapper .social_button:nth-child(2):hover .icon
+{
+  background-color: #00d5ff;
+}
+
+.contact_wrapper .social_button
+{
+  border-radius: 50px;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+
+}
+
+.contact_wrapper .social_button .icon
+{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+}
+
+.contact_wrapper .social_button .icon a
+{
+  font-size: 25px;
+  line-height: 60px;
+}
+
+.contact_wrapper .social_button .icon .social_name
+{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+
+}
+
+
+div.contact_card
+{
+  color: white;
+
+  backdrop-filter: blur(40px);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  margin: 40px;
+}
+
+
+/*background*/
+div.background
+{
+  background-image: url("background2.jpg");
+
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px black;
+  min-height: 900px;
+}
+
+
+/* animation */
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .modal {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .warning {
+    display: none;
+  }
+}
+
+
+div.welcome_section
+{
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  text-align: center;
+  color: white;
+  padding: 70px;
+  margin: 20px;
+  backdrop-filter: blur(40px);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+}
+
+button.find_out_more
+{
+  width: 150px;
+  height: 50px;
+  border: none;
+  border: solid 2px white;
+  border-radius: 24px;
+  background: rgba(255, 255, 255,0);
+  font-size: 18px;
+  color: white;
+  transition: 0.1s;
+}
+
+button.find_out_more:hover
+{
+  background: white;
+  color: black
+
+}

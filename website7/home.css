@@ -1,0 +1,72 @@
+.home_con
+{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  min-height: 1000px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+div.home_content
+{
+    padding: 10px;
+    padding-top: 60px;
+}
+
+.main_con
+{
+    background-color: white;
+}
+
+.active
+{
+  border-bottom: 1px solid yellow;
+}
+
+.fa-code
+{
+  color: white;
+  display: inline;
+}
+
+.paragraph
+{
+  color: white;
+  font-family: helvetica;
+}
+
+.watch_video
+{
+  border: 1px solid #ffd900;
+  border-radius: 25px;
+  padding: 12px 18px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #ffd900;
+  background-color: transparent;
+  /*box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 5px, rgba(0, 0, 0, 0.22) 0px 5px 5px;*/
+  outline: none;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transition: background 0.4s;
+}
+
+.watch_video:hover
+{
+  background-color: #ffd900;
+  color: black;
+}
+
+.luis_kisters
+{
+  color: blue;
+  transition: transform 0.2s;
+  transition: ease-in-out 0.2s;
+  
+}
+
+.luis_kisters:hover
+{
+  color: #00aaed;
+}

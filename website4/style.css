@@ -1,0 +1,37 @@
+html
+{
+  font-family: 'Poppins', sans-serif;
+  padding: 8px;
+  background-color: lightgrey;
+}
+
+.bg
+{
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  min-height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 12px;
+}
+
+.topnav
+{
+  text-align: right;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 12px;
+}
+
+.topnav_link
+{
+  color: grey;
+
+}
+
+
+.fa-500px
+{
+  padding: 8px;
+  color: white;
+
+}

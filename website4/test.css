@@ -1,0 +1,44 @@
+.main
+{
+}
+
+
+
+html
+{
+}
+
+.div_with_link
+{
+  background: blue;
+}
+
+.div_with_link:hover
+{
+  cursor: pointer;
+}
+
+.right_box
+{
+  background-color: yellow;
+  float: right;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.left_box
+{
+  background-color: red;
+  float: left;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/*background*/
+.background
+{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: lime;
+  min-height: 600px;
+}

@@ -1,0 +1,17 @@
+.home_landing_page
+{
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+h1.home_h1_1
+{
+  color: #31a0cc;
+  text-decoration: underline;
+}
+
+h1.home_h1_1::selection
+{
+  background-color: aqua;
+}

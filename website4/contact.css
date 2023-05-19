@@ -1,0 +1,110 @@
+.contact_con
+{
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 12px;
+  margin: 20px auto;
+  padding: 20px;
+  color: white;
+  max-width: 350px;
+  min-height: 400px;
+}
+
+.contact_name
+{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.contact_text
+{
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.contact_buttons_left
+{
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 130px;
+}
+
+.contact_buttons_right
+{
+  padding: 10px;
+  margin: 10px auto;
+  min-width: 130px;
+}
+
+.contact_buttons_reddit
+{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+  text-align: right;
+  color: black;
+  cursor: pointer;
+}
+
+.contact_buttons_instagram
+{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+  text-align: right;
+  color: black;
+  cursor: pointer;
+
+}
+
+.contact_buttons_facebook
+{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+  text-align: right;
+  color: black;
+  cursor: pointer;
+}
+
+.contact_buttons_twitter
+{
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+  text-align: right;
+  color: black;
+  cursor: pointer;
+}
+
+
+
+.contact_buttons_reddit:hover
+{
+  background-color: #ff5100;
+
+}
+
+h1.contact_social_links_h1
+{
+  text-align: center;
+  text-decoration: underline;
+}
+
+a
+{
+  text-decoration: none;
+}

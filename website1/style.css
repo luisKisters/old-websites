@@ -1,0 +1,31 @@
+body
+{
+	padding: 10px; 
+	margin: 10px;
+}
+
+#top_hyperlink
+{
+	font-family: tahoma;
+	padding: 10px;
+	font-size: 25px;
+	color: black;
+	text-decoration: none;
+}
+
+#top_hyperlink:hover
+{
+	font-family: tahoma;
+	padding: 10px;
+	font-size: 25px;
+	color: black;
+	text-decoration: underline;
+    text-decoration-color: red;
+    transition-delay: 0.3;
+}
+
+
+#top
+{
+	
+}
